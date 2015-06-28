@@ -1,0 +1,16 @@
+{
+  "name": "solar_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Theo Bohnen",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "jquery": "^2.1.4"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<title>
+
+</title>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script>
+function sendLightRequest(){
+$.get('/lights?timeout=' + $('#timeout').val() * 60000);
+}
+</script>
+</head>
+
+<body>
+<label>Delay (in minutes):</label>
+<input type="text" id="timeout" value="0"/>
+<button type="button" onclick='sendLightRequest()'>Change Lights</button>
+</body>
+
+
+
+</html>
